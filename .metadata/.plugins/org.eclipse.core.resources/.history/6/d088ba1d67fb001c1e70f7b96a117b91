@@ -1,0 +1,33 @@
+import org.json.simple.JSONObject;
+import org.testng.annotations.Test;
+
+import io.restassured.RestAssured;
+import io.restassured.http.Method;
+import io.restassured.response.Response;
+import io.restassured.specification.RequestSpecification;
+
+public class Tc002post {
+	@Test
+	public void postrequest()
+	{
+		RestAssured.baseURI="https://dummy.restapiexample.com/api/v1";
+		RequestSpecification https=RestAssured.given();
+		JSONObject requestparams=new JSONObject();
+		requestparams.put("name","test");
+		requestparams.put("salary","123");
+		requestparams.put("age","23");
+		https.header("Content-Type","application/JSON");
+		https.body(requestparams.toJSONString());
+		Response response=https.request(Method.POST,"/create");
+		String resonsebody=response.getBody().asString();
+		System.out.println("response body:"+resonsebody);
+		int StatusCode=response.getStatusCode();
+		System.out.println("status code:"+StatusCode);
+		
+		
+		
+		
+		
+	}
+
+}

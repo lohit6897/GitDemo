@@ -1,0 +1,13 @@
+package Practice;
+
+public class big {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int arr[]= {13,2,5,14,5,22,2,2};
+		int min=(0);
+		
+
+	}
+
+}

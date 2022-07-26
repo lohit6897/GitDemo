@@ -1,0 +1,29 @@
+package Practice;
+
+
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Emplogin {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\Lohit\\chromedriver.exe");
+		WebDriver driver=  new ChromeDriver();
+		
+		driver.get("http://employee.hyenaapps.com/#/");
+		driver.manage().timeouts().implicitlyWait(5,TimeUnit.SECONDS);
+		driver.manage().window().maximize();
+		driver.findElement(By.id("username")).sendKeys("shsu6333");
+		driver.findElement(By.id("password")).sendKeys("Etoapp@1234");
+		driver.findElement(By.id("loginButton")).click();
+		
+
+	}
+
+}

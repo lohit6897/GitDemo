@@ -1,0 +1,20 @@
+package Practice;
+
+public class Vowels {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String name="lohit";
+		int count=0;
+		int i;
+		
+		for(i=0;i<name.length();i++)
+		{
+			char word=name.charAt(i);
+			if(word=='o')
+				count++;
+		}
+		System.out.println("count of a is " + count);
+	}
+
+}

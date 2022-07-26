@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-07-07T06:43:27Z" name="Default suite" finished-at="2022-07-07T06:43:31Z" duration-ms="3609">
+    <groups>
+    </groups>
+    <test started-at="2022-07-07T06:43:27Z" name="Default test" finished-at="2022-07-07T06:43:31Z" duration-ms="3609">
+      <class name="datadriventesting.datadriventest_Addnewemployees">
+        <test-method signature="postnewEmployees(java.lang.String, java.lang.String)[pri:0, instance:datadriventesting.datadriventest_Addnewemployees@275bf9b3]" started-at="2022-07-07T06:43:28Z" name="postnewEmployees" data-provider="getEmpData" finished-at="2022-07-07T06:43:30Z" duration-ms="1551" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[LOHIT123]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[seo]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postnewEmployees -->
+        <test-method signature="postnewEmployees(java.lang.String, java.lang.String)[pri:0, instance:datadriventesting.datadriventest_Addnewemployees@275bf9b3]" started-at="2022-07-07T06:43:30Z" name="postnewEmployees" data-provider="getEmpData" finished-at="2022-07-07T06:43:30Z" duration-ms="398" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[LOHIT678]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ceo]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postnewEmployees -->
+        <test-method signature="postnewEmployees(java.lang.String, java.lang.String)[pri:0, instance:datadriventesting.datadriventest_Addnewemployees@275bf9b3]" started-at="2022-07-07T06:43:30Z" name="postnewEmployees" data-provider="getEmpData" finished-at="2022-07-07T06:43:30Z" duration-ms="407" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[LOHIT543]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postnewEmployees -->
+        <test-method signature="postnewEmployees(java.lang.String, java.lang.String)[pri:0, instance:datadriventesting.datadriventest_Addnewemployees@275bf9b3]" started-at="2022-07-07T06:43:30Z" name="postnewEmployees" data-provider="getEmpData" finished-at="2022-07-07T06:43:31Z" duration-ms="403" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[LOHIT456]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dev]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postnewEmployees -->
+      </class> <!-- datadriventesting.datadriventest_Addnewemployees -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

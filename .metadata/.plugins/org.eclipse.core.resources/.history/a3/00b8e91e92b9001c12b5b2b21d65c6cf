@@ -1,0 +1,19 @@
+package Practice;
+
+public class numbers {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+        int num=1;
+        num=num+1;  
+        if(num <= 100) {
+        	
+            System.out.print(num);
+            
+        }
+       
+
+
+	}
+
+}

@@ -1,0 +1,27 @@
+package Practice;
+
+public class Vowels {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String name="lohit";
+		int counto=0;
+		int counti=0;
+		int i;
+		
+		for(i=0;i<name.length();i++)
+		{
+			char word=name.charAt(i);
+			if(word=='o' )
+				counto++;
+			else if(word=='i');
+			{
+				counti++;	
+			}
+			break;	
+		}
+		System.out.println("count of o is " + counto);
+		System.out.println("count of i is " + counti);
+	}
+
+}
