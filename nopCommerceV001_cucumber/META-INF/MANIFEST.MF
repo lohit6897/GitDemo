@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: nopCommerceV001_cucumber
+Bundle-SymbolicName: nopCommerceV001_cucumber
+Bundle-Version: 1.0.0.qualifier
+Bundle-ClassPath: nopCommerceV001_cucumber.jar,
+ Lohit/Downloads/selenium-java-4.1.2/selenium-support-4.1.2.jar,
+ Lohit/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar
+Automatic-Module-Name: nopCommerceV001.cucumber
+Bundle-RequiredExecutionEnvironment: JavaSE-15
+Export-Package: Feature,
+ pageObjects,
+ stepDefinitions,
+ testRunner

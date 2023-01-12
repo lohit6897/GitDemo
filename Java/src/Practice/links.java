@@ -11,11 +11,11 @@ public class links {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.setProperty("webdriver.chrome.driver","C:\\Users\\Lohit\\Downloads\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\Lohit\\Downloads\\chrome\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		
 		driver.get( "https://www.google.co.in");
-		List<WebElement> all_links_webpage = driver.findElements(By.tagName("a")); 
+		List<WebElement> all_links_webpage = driver.findElements(By.tagName("z")); 
 		System.out.println("Total no of links Available: " + all_links_webpage.size());
 		int k = all_links_webpage.size();
 		System.out.println("List of links Available: ");

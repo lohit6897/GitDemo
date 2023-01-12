@@ -15,6 +15,7 @@ public class Emplogin {
 		
 		System.setProperty("webdriver.chrome.driver","C:\\Users\\Lohit\\chromedriver.exe");
 		WebDriver driver=  new ChromeDriver();
+		driver.manage().window().maximize();
 		
 		driver.get("http://employee.hyenaapps.com/#/");
 		//driver.manage().timeouts().implicitlyWait(9,TimeUnit.SECONDS);

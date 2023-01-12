@@ -6,7 +6,8 @@ public class revnum {
 		// TODO Auto-generated method stub
 		
 		
-		int num=1234,rev=0,rem;
+		Integer num=1221,rev=0,rem;
+		Integer temp=num;
 		while(num!=0)
 		{
 			rem=num%10;
@@ -16,6 +17,16 @@ public class revnum {
 		}
 		
 		System.out.println(rev);
+		System.out.println(num);
+		System.out.println(temp);
+		 if(temp.equals(rev))
+	        {
+	          System.out.println("palindrome");
+	        }
+	        else
+	        {
+	          System.out.println("not palindrome");  
+	        }
 	}
 
 }

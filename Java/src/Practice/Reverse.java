@@ -11,10 +11,11 @@ public class Reverse {
        
     
 		
-	       for(int i=0;i<name.length();i++)
+	       for(int i=name.length()-1;i>=0;i--)
 	        {
 	           char ch=name.charAt(i);
-	            name1=ch+name1;
+	           // name1=ch+name1;
+	           name1=name1+ch;
 	         
 	            //System.out.println(ch);
 	        }

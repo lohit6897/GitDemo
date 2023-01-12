@@ -11,7 +11,7 @@ public class duplicate1 {
         for (int i = 0; i < input.length(); i++)
         {
            char ch=input.charAt(i);
-           System.out.println("test"+output.indexOf(ch));
+           //System.out.println("test"+output.indexOf(ch));
            if(output.indexOf(ch)<0)
            {
         	   output=output+ch;   

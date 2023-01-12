@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="datadriventesting.datadriventest_Addnewemployees">
+      <class name="Tc001GetReq">
         <methods>
-          <include name="postnewEmployees"/>
+          <include name="getweatherDetails"/>
         </methods>
-      </class> <!-- datadriventesting.datadriventest_Addnewemployees -->
+      </class> <!-- Tc001GetReq -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -20,7 +20,7 @@ public class datadriventest_Addnewemployees
 	RestAssured.baseURI="https://reqres.in/api";
 	RequestSpecification https=RestAssured.given();
 	JSONObject requestparams=new JSONObject();
-	requestparams.put( "name",ename);
+	requestparams.put("name",ename);
 	requestparams.put("job",ejob);
 	//requestparams.put("age",eage);
 	
@@ -59,18 +59,3 @@ public class datadriventest_Addnewemployees
 	}
 }
 	
-	
-
-
-	
-		
-
-
-
-		
-	
-
-	
-		
-	
-
